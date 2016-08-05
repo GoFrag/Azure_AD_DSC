@@ -105,6 +105,6 @@ $config.Add("safemodeAdministratorCred", $scred);
 $config.Add("domainName",$domainName);
 Set-AzureRmVMDscExtension -ResourceGroupName $rgName -VMName $compName -ArchiveBlobName "ActiveDirectoryInstall.ps1.ZIP" `
                           -ArchiveStorageAccountName $storageAccountName -ConfigurationName "ActiveDirectoryInstall" `
-                           -ConfigurationArgument $config -Version "2.17"  -ArchiveContainerName "12345bitstreamstorage" 
+                           -ConfigurationArgument $config -Version "2.17"  -ArchiveContainerName $containerName 
 
 
