@@ -1,4 +1,4 @@
-﻿# Evolution of Infrastructure as Code in Azure
+#  Infrastructure as Code in Azure
 
 The following samples are always "Create VM with Active Directory"
 
@@ -11,6 +11,6 @@ The following samples are always "Create VM with Active Directory"
  soon ...
 
 
- ## ARM Template with Azure Automation DSC Pull Server
+## ARM Template with Azure Automation DSC Pull Server
 
  soon ...
